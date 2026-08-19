@@ -1,0 +1,6 @@
+palavra = str(input("Digite uma palavra: "))
+contador = 0 
+for i in range (len(palavra)):
+     if palavra[i].lower() in "aeiou":
+        contador += 1
+print (f"A palavra tem {contador} vogais.")
