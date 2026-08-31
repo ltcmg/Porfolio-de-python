@@ -1,0 +1,7 @@
+numeros = (15, 42, 8, 73, 29, 5000)
+max(numeros)
+min(numeros)
+sum(numeros)
+print(f"Maior número: {max(numeros)}")
+print(f"Menor número: {min(numeros)}")
+print(f"Soma: {sum(numeros)}")
